@@ -1,5 +1,6 @@
 import main
 
+
 def test_upslope():
     assert main.mountain_count([1, 2, 3, 4]) == 0
     assert main.mountain_count([4, 3, 2, 1]) == 0
